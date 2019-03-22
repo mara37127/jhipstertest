@@ -38,6 +38,20 @@ public class CacheConfiguration {
             cm.createCache(com.mara.domain.User.class.getName(), jcacheConfiguration);
             cm.createCache(com.mara.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(com.mara.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            cm.createCache(com.mara.domain.Wishlist.class.getName(), jcacheConfiguration);
+            cm.createCache(com.mara.domain.Wish.class.getName(), jcacheConfiguration);
+            cm.createCache(com.mara.domain.Region.class.getName(), jcacheConfiguration);
+            cm.createCache(com.mara.domain.Country.class.getName(), jcacheConfiguration);
+            cm.createCache(com.mara.domain.Location.class.getName(), jcacheConfiguration);
+            cm.createCache(com.mara.domain.Department.class.getName(), jcacheConfiguration);
+            cm.createCache(com.mara.domain.Department.class.getName() + ".employees", jcacheConfiguration);
+            cm.createCache(com.mara.domain.Task.class.getName(), jcacheConfiguration);
+            cm.createCache(com.mara.domain.Task.class.getName() + ".jobs", jcacheConfiguration);
+            cm.createCache(com.mara.domain.Employee.class.getName(), jcacheConfiguration);
+            cm.createCache(com.mara.domain.Employee.class.getName() + ".jobs", jcacheConfiguration);
+            cm.createCache(com.mara.domain.Job.class.getName(), jcacheConfiguration);
+            cm.createCache(com.mara.domain.Job.class.getName() + ".tasks", jcacheConfiguration);
+            cm.createCache(com.mara.domain.JobHistory.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }

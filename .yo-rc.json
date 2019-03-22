@@ -33,6 +33,8 @@
     "jwtSecretKey": "ZmY3NjA1ZjFkNTRhYTVkZWNjZDFhMzNjMDc2NTNjNzkyYWQxMTY4YmVkMWI0YjhmMWYzYmEyM2RmOWFkYzhjMGYwYTZhMjhiNWE5OTM2MTM4OGM1MjdiOTY5OGFhZmVjN2ZiNTgzZTNhODJmZWIyZmVlY2U5MjllYzg4MDUxMDg=",
     "entitySuffix": "",
     "dtoSuffix": "DTO",
-    "otherModules": []
+    "otherModules": [],
+    "herokuAppName": "mara-deploy-test",
+    "herokuDeployType": "git"
   }
 }
